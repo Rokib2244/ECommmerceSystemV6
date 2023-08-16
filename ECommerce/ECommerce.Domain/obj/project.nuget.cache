@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CNNLuRfXG7/HFW3ct0vC1HZ5+f4pVW+U9dtY62pUbGtM7vaFY3TaiDGSnoiOICHmX2FaMuONvZjlu71LzRvl5g==",
+  "dgSpecHash": "psiCUwjiBWFHaysKPrCmJzzhlZLq6MyxBLNGIyVB5qJtVHtMR2YXAA4YpthZTz6s96TTQfPqrCEVaHORrMma1A==",
   "success": true,
-  "projectFilePath": "E:\\ASP.NET\\Repositories\\Class Wise Projects\\ECommerce\\ECommerce.Domain\\ECommerce.Domain.csproj",
+  "projectFilePath": "E:\\MyProject\\ECommmerceSystemV6\\ECommerce\\ECommerce.Domain\\ECommerce.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

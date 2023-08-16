@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\ASP.NET\\Repositories\\Class Wise Projects\\ECommerce\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj": {}
+    "E:\\MyProject\\ECommmerceSystemV6\\ECommerce\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj": {}
   },
   "projects": {
-    "E:\\ASP.NET\\Repositories\\Class Wise Projects\\ECommerce\\ECommerce.Application\\ECommerce.Application.csproj": {
+    "E:\\MyProject\\ECommmerceSystemV6\\ECommerce\\ECommerce.Application\\ECommerce.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ASP.NET\\Repositories\\Class Wise Projects\\ECommerce\\ECommerce.Application\\ECommerce.Application.csproj",
+        "projectUniqueName": "E:\\MyProject\\ECommmerceSystemV6\\ECommerce\\ECommerce.Application\\ECommerce.Application.csproj",
         "projectName": "ECommerce.Application",
-        "projectPath": "E:\\ASP.NET\\Repositories\\Class Wise Projects\\ECommerce\\ECommerce.Application\\ECommerce.Application.csproj",
-        "packagesPath": "C:\\Users\\roni\\.nuget\\packages\\",
-        "outputPath": "E:\\ASP.NET\\Repositories\\Class Wise Projects\\ECommerce\\ECommerce.Application\\obj\\",
+        "projectPath": "E:\\MyProject\\ECommmerceSystemV6\\ECommerce\\ECommerce.Application\\ECommerce.Application.csproj",
+        "packagesPath": "C:\\Users\\Laptop Click\\.nuget\\packages\\",
+        "outputPath": "E:\\MyProject\\ECommmerceSystemV6\\ECommerce\\ECommerce.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\roni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Laptop Click\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\ASP.NET\\Repositories\\Class Wise Projects\\ECommerce\\ECommerce.Domain\\ECommerce.Domain.csproj": {
-                "projectPath": "E:\\ASP.NET\\Repositories\\Class Wise Projects\\ECommerce\\ECommerce.Domain\\ECommerce.Domain.csproj"
+              "E:\\MyProject\\ECommmerceSystemV6\\ECommerce\\ECommerce.Domain\\ECommerce.Domain.csproj": {
+                "projectPath": "E:\\MyProject\\ECommmerceSystemV6\\ECommerce\\ECommerce.Domain\\ECommerce.Domain.csproj"
               }
             }
           }
@@ -65,21 +65,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\ASP.NET\\Repositories\\Class Wise Projects\\ECommerce\\ECommerce.Domain\\ECommerce.Domain.csproj": {
+    "E:\\MyProject\\ECommmerceSystemV6\\ECommerce\\ECommerce.Domain\\ECommerce.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ASP.NET\\Repositories\\Class Wise Projects\\ECommerce\\ECommerce.Domain\\ECommerce.Domain.csproj",
+        "projectUniqueName": "E:\\MyProject\\ECommmerceSystemV6\\ECommerce\\ECommerce.Domain\\ECommerce.Domain.csproj",
         "projectName": "ECommerce.Domain",
-        "projectPath": "E:\\ASP.NET\\Repositories\\Class Wise Projects\\ECommerce\\ECommerce.Domain\\ECommerce.Domain.csproj",
-        "packagesPath": "C:\\Users\\roni\\.nuget\\packages\\",
-        "outputPath": "E:\\ASP.NET\\Repositories\\Class Wise Projects\\ECommerce\\ECommerce.Domain\\obj\\",
+        "projectPath": "E:\\MyProject\\ECommmerceSystemV6\\ECommerce\\ECommerce.Domain\\ECommerce.Domain.csproj",
+        "packagesPath": "C:\\Users\\Laptop Click\\.nuget\\packages\\",
+        "outputPath": "E:\\MyProject\\ECommmerceSystemV6\\ECommerce\\ECommerce.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\roni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Laptop Click\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -120,21 +120,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\ASP.NET\\Repositories\\Class Wise Projects\\ECommerce\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj": {
+    "E:\\MyProject\\ECommmerceSystemV6\\ECommerce\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ASP.NET\\Repositories\\Class Wise Projects\\ECommerce\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj",
+        "projectUniqueName": "E:\\MyProject\\ECommmerceSystemV6\\ECommerce\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj",
         "projectName": "ECommerce.Infrastructure",
-        "projectPath": "E:\\ASP.NET\\Repositories\\Class Wise Projects\\ECommerce\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\roni\\.nuget\\packages\\",
-        "outputPath": "E:\\ASP.NET\\Repositories\\Class Wise Projects\\ECommerce\\ECommerce.Infrastructure\\obj\\",
+        "projectPath": "E:\\MyProject\\ECommmerceSystemV6\\ECommerce\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Laptop Click\\.nuget\\packages\\",
+        "outputPath": "E:\\MyProject\\ECommmerceSystemV6\\ECommerce\\ECommerce.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\roni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Laptop Click\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -148,8 +148,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\ASP.NET\\Repositories\\Class Wise Projects\\ECommerce\\ECommerce.Application\\ECommerce.Application.csproj": {
-                "projectPath": "E:\\ASP.NET\\Repositories\\Class Wise Projects\\ECommerce\\ECommerce.Application\\ECommerce.Application.csproj"
+              "E:\\MyProject\\ECommmerceSystemV6\\ECommerce\\ECommerce.Application\\ECommerce.Application.csproj": {
+                "projectPath": "E:\\MyProject\\ECommmerceSystemV6\\ECommerce\\ECommerce.Application\\ECommerce.Application.csproj"
               }
             }
           }
@@ -185,7 +185,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }
