@@ -1,0 +1,34 @@
+D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\bin\Debug\net7.0\ECommerce.Persistence.deps.json
+D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\bin\Debug\net7.0\ECommerce.Persistence.dll
+D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\bin\Debug\net7.0\ECommerce.Persistence.pdb
+D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\obj\Debug\net7.0\ECommerce.Persistence.csproj.AssemblyReference.cache
+D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\obj\Debug\net7.0\ECommerce.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\obj\Debug\net7.0\ECommerce.Persistence.AssemblyInfoInputs.cache
+D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\obj\Debug\net7.0\ECommerce.Persistence.AssemblyInfo.cs
+D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\obj\Debug\net7.0\ECommerce.Persistence.csproj.CoreCompileInputs.cache
+D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\obj\Debug\net7.0\ECommerce.Persistence.dll
+D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\obj\Debug\net7.0\refint\ECommerce.Persistence.dll
+D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\obj\Debug\net7.0\ECommerce.Persistence.pdb
+D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\obj\Debug\net7.0\ref\ECommerce.Persistence.dll
+D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\bin\Debug\net7.0\ECommerce.Application.dll
+D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\bin\Debug\net7.0\ECommerce.Domain.dll
+D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\bin\Debug\net7.0\ECommerce.Application.pdb
+D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\bin\Debug\net7.0\ECommerce.Domain.pdb
+D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\obj\Debug\net7.0\ECommerce.Persistence.csproj.CopyComplete
+E:\ASP.NET\Repositories\Class Wise Projects\ECommerce\ECommerce.Persistence\bin\Debug\net7.0\ECommerce.Persistence.deps.json
+E:\ASP.NET\Repositories\Class Wise Projects\ECommerce\ECommerce.Persistence\bin\Debug\net7.0\ECommerce.Persistence.dll
+E:\ASP.NET\Repositories\Class Wise Projects\ECommerce\ECommerce.Persistence\bin\Debug\net7.0\ECommerce.Persistence.pdb
+E:\ASP.NET\Repositories\Class Wise Projects\ECommerce\ECommerce.Persistence\bin\Debug\net7.0\ECommerce.Application.dll
+E:\ASP.NET\Repositories\Class Wise Projects\ECommerce\ECommerce.Persistence\bin\Debug\net7.0\ECommerce.Domain.dll
+E:\ASP.NET\Repositories\Class Wise Projects\ECommerce\ECommerce.Persistence\bin\Debug\net7.0\ECommerce.Application.pdb
+E:\ASP.NET\Repositories\Class Wise Projects\ECommerce\ECommerce.Persistence\bin\Debug\net7.0\ECommerce.Domain.pdb
+E:\ASP.NET\Repositories\Class Wise Projects\ECommerce\ECommerce.Persistence\obj\Debug\net7.0\ECommerce.Persistence.csproj.AssemblyReference.cache
+E:\ASP.NET\Repositories\Class Wise Projects\ECommerce\ECommerce.Persistence\obj\Debug\net7.0\ECommerce.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+E:\ASP.NET\Repositories\Class Wise Projects\ECommerce\ECommerce.Persistence\obj\Debug\net7.0\ECommerce.Persistence.AssemblyInfoInputs.cache
+E:\ASP.NET\Repositories\Class Wise Projects\ECommerce\ECommerce.Persistence\obj\Debug\net7.0\ECommerce.Persistence.AssemblyInfo.cs
+E:\ASP.NET\Repositories\Class Wise Projects\ECommerce\ECommerce.Persistence\obj\Debug\net7.0\ECommerce.Persistence.csproj.CoreCompileInputs.cache
+E:\ASP.NET\Repositories\Class Wise Projects\ECommerce\ECommerce.Persistence\obj\Debug\net7.0\ECommerce.Persistence.csproj.CopyComplete
+E:\ASP.NET\Repositories\Class Wise Projects\ECommerce\ECommerce.Persistence\obj\Debug\net7.0\ECommerce.Persistence.dll
+E:\ASP.NET\Repositories\Class Wise Projects\ECommerce\ECommerce.Persistence\obj\Debug\net7.0\refint\ECommerce.Persistence.dll
+E:\ASP.NET\Repositories\Class Wise Projects\ECommerce\ECommerce.Persistence\obj\Debug\net7.0\ECommerce.Persistence.pdb
+E:\ASP.NET\Repositories\Class Wise Projects\ECommerce\ECommerce.Persistence\obj\Debug\net7.0\ref\ECommerce.Persistence.dll

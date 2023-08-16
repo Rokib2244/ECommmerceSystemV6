@@ -1,0 +1,480 @@
+2023-06-10 13:54:36.837 +06:00 [INF] Application Starting....
+2023-06-10 16:26:26.644 +06:00 [INF] Application Starting....
+2023-06-10 16:26:56.964 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotImplementedException: The method or operation is not implemented.
+   at ECommerce.Persistence.Repository`2.GetDynamicAsync(Expression`1 filter, String orderBy, Func`2 include, Int32 pageIndex, Int32 pageSize, Boolean isTrackingOff) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Repository.cs:line 79
+   at ECommerce.Persistence.Features.Feature1.Repositories.ProductRepository.GetTableDataAsync(Expression`1 expression, String orderBy, Int32 pageIndex, Int32 pageSize) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Features\Feature1\Repositories\ProductRepository.cs:line 17
+   at ECommerce.Infrastructure.Features.Services.ProductService.GetPagedProductsAsync(Int32 pageIndex, Int32 pageSize, String searchText, String orderBy) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Infrastructure\Features\Services\ProductService.cs:line 23
+   at ECommerce.Web.Models.ProductListModel.GetPagedProductAsync(DataTablesAjaxRequestUtility dataTableUtility) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Models\ProductListModel.cs:line 25
+   at ECommerce.Web.Areas.Admin.Controllers.ProductController.GetProducts() in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Areas\Admin\Controllers\ProductController.cs:line 28
+   at lambda_method575(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-06-10 16:28:40.793 +06:00 [INF] Application Starting....
+2023-06-10 16:28:53.417 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotImplementedException: The method or operation is not implemented.
+   at ECommerce.Persistence.Repository`2.GetDynamicAsync(Expression`1 filter, String orderBy, Func`2 include, Int32 pageIndex, Int32 pageSize, Boolean isTrackingOff) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Repository.cs:line 79
+   at ECommerce.Persistence.Features.Feature1.Repositories.ProductRepository.GetTableDataAsync(Expression`1 expression, String orderBy, Int32 pageIndex, Int32 pageSize) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Features\Feature1\Repositories\ProductRepository.cs:line 17
+   at ECommerce.Infrastructure.Features.Services.ProductService.GetPagedProductsAsync(Int32 pageIndex, Int32 pageSize, String searchText, String orderBy) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Infrastructure\Features\Services\ProductService.cs:line 23
+   at ECommerce.Web.Models.ProductListModel.GetPagedProductAsync(DataTablesAjaxRequestUtility dataTableUtility) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Models\ProductListModel.cs:line 25
+   at ECommerce.Web.Areas.Admin.Controllers.ProductController.GetProducts() in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Areas\Admin\Controllers\ProductController.cs:line 28
+   at lambda_method575(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-06-10 16:29:04.336 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotImplementedException: The method or operation is not implemented.
+   at ECommerce.Persistence.Repository`2.GetDynamicAsync(Expression`1 filter, String orderBy, Func`2 include, Int32 pageIndex, Int32 pageSize, Boolean isTrackingOff) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Repository.cs:line 79
+   at ECommerce.Persistence.Features.Feature1.Repositories.ProductRepository.GetTableDataAsync(Expression`1 expression, String orderBy, Int32 pageIndex, Int32 pageSize) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Features\Feature1\Repositories\ProductRepository.cs:line 17
+   at ECommerce.Infrastructure.Features.Services.ProductService.GetPagedProductsAsync(Int32 pageIndex, Int32 pageSize, String searchText, String orderBy) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Infrastructure\Features\Services\ProductService.cs:line 23
+   at ECommerce.Web.Models.ProductListModel.GetPagedProductAsync(DataTablesAjaxRequestUtility dataTableUtility) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Models\ProductListModel.cs:line 25
+   at ECommerce.Web.Areas.Admin.Controllers.ProductController.GetProducts() in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Areas\Admin\Controllers\ProductController.cs:line 28
+   at lambda_method575(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-06-10 16:41:33.080 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotImplementedException: The method or operation is not implemented.
+   at ECommerce.Persistence.Repository`2.GetDynamicAsync(Expression`1 filter, String orderBy, Func`2 include, Int32 pageIndex, Int32 pageSize, Boolean isTrackingOff) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Repository.cs:line 79
+   at ECommerce.Persistence.Features.Feature1.Repositories.ProductRepository.GetTableDataAsync(Expression`1 expression, String orderBy, Int32 pageIndex, Int32 pageSize) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Features\Feature1\Repositories\ProductRepository.cs:line 17
+   at ECommerce.Infrastructure.Features.Services.ProductService.GetPagedProductsAsync(Int32 pageIndex, Int32 pageSize, String searchText, String orderBy) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Infrastructure\Features\Services\ProductService.cs:line 23
+   at ECommerce.Web.Models.ProductListModel.GetPagedProductAsync(DataTablesAjaxRequestUtility dataTableUtility) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Models\ProductListModel.cs:line 25
+   at ECommerce.Web.Areas.Admin.Controllers.ProductController.GetProducts() in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Areas\Admin\Controllers\ProductController.cs:line 28
+   at lambda_method575(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-06-10 16:53:10.893 +06:00 [INF] Application Starting....
+2023-06-10 16:57:02.674 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotImplementedException: The method or operation is not implemented.
+   at ECommerce.Persistence.Repository`2.GetDynamicAsync(Expression`1 filter, String orderBy, Func`2 include, Int32 pageIndex, Int32 pageSize, Boolean isTrackingOff) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Repository.cs:line 79
+   at ECommerce.Persistence.Features.Feature1.Repositories.ProductRepository.GetTableDataAsync(Expression`1 expression, String orderBy, Int32 pageIndex, Int32 pageSize) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Features\Feature1\Repositories\ProductRepository.cs:line 17
+   at ECommerce.Infrastructure.Features.Services.ProductService.GetPagedProductsAsync(Int32 pageIndex, Int32 pageSize, String searchText, String orderBy) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Infrastructure\Features\Services\ProductService.cs:line 23
+   at ECommerce.Web.Models.ProductListModel.GetPagedProductAsync(DataTablesAjaxRequestUtility dataTableUtility) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Models\ProductListModel.cs:line 25
+   at ECommerce.Web.Areas.Admin.Controllers.ProductController.GetProducts() in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Areas\Admin\Controllers\ProductController.cs:line 28
+   at lambda_method575(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-06-10 16:58:34.339 +06:00 [INF] Application Starting....
+2023-06-10 17:01:30.799 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotImplementedException: The method or operation is not implemented.
+   at ECommerce.Persistence.Repository`2.GetDynamicAsync(Expression`1 filter, String orderBy, Func`2 include, Int32 pageIndex, Int32 pageSize, Boolean isTrackingOff) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Repository.cs:line 79
+   at ECommerce.Persistence.Features.Feature1.Repositories.ProductRepository.GetTableDataAsync(Expression`1 expression, String orderBy, Int32 pageIndex, Int32 pageSize) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Features\Feature1\Repositories\ProductRepository.cs:line 17
+   at ECommerce.Infrastructure.Features.Services.ProductService.GetPagedProductsAsync(Int32 pageIndex, Int32 pageSize, String searchText, String orderBy) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Infrastructure\Features\Services\ProductService.cs:line 23
+   at ECommerce.Web.Models.ProductListModel.GetPagedProductAsync(DataTablesAjaxRequestUtility dataTableUtility) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Models\ProductListModel.cs:line 25
+   at ECommerce.Web.Areas.Admin.Controllers.ProductController.GetProducts() in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Areas\Admin\Controllers\ProductController.cs:line 28
+   at lambda_method575(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-06-10 17:01:41.026 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotImplementedException: The method or operation is not implemented.
+   at ECommerce.Persistence.Repository`2.GetDynamicAsync(Expression`1 filter, String orderBy, Func`2 include, Int32 pageIndex, Int32 pageSize, Boolean isTrackingOff) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Repository.cs:line 79
+   at ECommerce.Persistence.Features.Feature1.Repositories.ProductRepository.GetTableDataAsync(Expression`1 expression, String orderBy, Int32 pageIndex, Int32 pageSize) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Features\Feature1\Repositories\ProductRepository.cs:line 17
+   at ECommerce.Infrastructure.Features.Services.ProductService.GetPagedProductsAsync(Int32 pageIndex, Int32 pageSize, String searchText, String orderBy) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Infrastructure\Features\Services\ProductService.cs:line 23
+   at ECommerce.Web.Models.ProductListModel.GetPagedProductAsync(DataTablesAjaxRequestUtility dataTableUtility) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Models\ProductListModel.cs:line 25
+   at ECommerce.Web.Areas.Admin.Controllers.ProductController.GetProducts() in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Areas\Admin\Controllers\ProductController.cs:line 28
+   at lambda_method575(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-06-10 17:02:22.433 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotImplementedException: The method or operation is not implemented.
+   at ECommerce.Persistence.Repository`2.GetDynamicAsync(Expression`1 filter, String orderBy, Func`2 include, Int32 pageIndex, Int32 pageSize, Boolean isTrackingOff) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Repository.cs:line 79
+   at ECommerce.Persistence.Features.Feature1.Repositories.ProductRepository.GetTableDataAsync(Expression`1 expression, String orderBy, Int32 pageIndex, Int32 pageSize) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Features\Feature1\Repositories\ProductRepository.cs:line 17
+   at ECommerce.Infrastructure.Features.Services.ProductService.GetPagedProductsAsync(Int32 pageIndex, Int32 pageSize, String searchText, String orderBy) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Infrastructure\Features\Services\ProductService.cs:line 23
+   at ECommerce.Web.Models.ProductListModel.GetPagedProductAsync(DataTablesAjaxRequestUtility dataTableUtility) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Models\ProductListModel.cs:line 25
+   at ECommerce.Web.Areas.Admin.Controllers.ProductController.GetProducts() in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Areas\Admin\Controllers\ProductController.cs:line 28
+   at lambda_method575(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-06-10 17:12:57.317 +06:00 [INF] Application Starting....
+2023-06-10 17:13:14.429 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotImplementedException: The method or operation is not implemented.
+   at ECommerce.Persistence.Repository`2.GetDynamicAsync(Expression`1 filter, String orderBy, Func`2 include, Int32 pageIndex, Int32 pageSize, Boolean isTrackingOff) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Repository.cs:line 79
+   at ECommerce.Persistence.Features.Feature1.Repositories.ProductRepository.GetTableDataAsync(Expression`1 expression, String orderBy, Int32 pageIndex, Int32 pageSize) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Features\Feature1\Repositories\ProductRepository.cs:line 17
+   at ECommerce.Infrastructure.Features.Services.ProductService.GetPagedProductsAsync(Int32 pageIndex, Int32 pageSize, String searchText, String orderBy) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Infrastructure\Features\Services\ProductService.cs:line 23
+   at ECommerce.Web.Models.ProductListModel.GetPagedProductAsync(DataTablesAjaxRequestUtility dataTableUtility) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Models\ProductListModel.cs:line 25
+   at ECommerce.Web.Areas.Admin.Controllers.ProductController.GetProducts() in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Areas\Admin\Controllers\ProductController.cs:line 28
+   at lambda_method575(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-06-10 17:13:47.415 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotImplementedException: The method or operation is not implemented.
+   at ECommerce.Persistence.Repository`2.GetDynamicAsync(Expression`1 filter, String orderBy, Func`2 include, Int32 pageIndex, Int32 pageSize, Boolean isTrackingOff) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Repository.cs:line 79
+   at ECommerce.Persistence.Features.Feature1.Repositories.ProductRepository.GetTableDataAsync(Expression`1 expression, String orderBy, Int32 pageIndex, Int32 pageSize) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Features\Feature1\Repositories\ProductRepository.cs:line 17
+   at ECommerce.Infrastructure.Features.Services.ProductService.GetPagedProductsAsync(Int32 pageIndex, Int32 pageSize, String searchText, String orderBy) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Infrastructure\Features\Services\ProductService.cs:line 23
+   at ECommerce.Web.Models.ProductListModel.GetPagedProductAsync(DataTablesAjaxRequestUtility dataTableUtility) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Models\ProductListModel.cs:line 25
+   at ECommerce.Web.Areas.Admin.Controllers.ProductController.GetProducts() in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Areas\Admin\Controllers\ProductController.cs:line 28
+   at lambda_method575(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-06-10 17:17:10.134 +06:00 [INF] Application Starting....
+2023-06-10 17:17:57.886 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotImplementedException: The method or operation is not implemented.
+   at ECommerce.Persistence.Repository`2.GetDynamicAsync(Expression`1 filter, String orderBy, Func`2 include, Int32 pageIndex, Int32 pageSize, Boolean isTrackingOff) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Repository.cs:line 79
+   at ECommerce.Persistence.Features.Feature1.Repositories.ProductRepository.GetTableDataAsync(Expression`1 expression, String orderBy, Int32 pageIndex, Int32 pageSize) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Features\Feature1\Repositories\ProductRepository.cs:line 17
+   at ECommerce.Infrastructure.Features.Services.ProductService.GetPagedProductsAsync(Int32 pageIndex, Int32 pageSize, String searchText, String orderBy) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Infrastructure\Features\Services\ProductService.cs:line 23
+   at ECommerce.Web.Models.ProductListModel.GetPagedProductAsync(DataTablesAjaxRequestUtility dataTableUtility) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Models\ProductListModel.cs:line 25
+   at ECommerce.Web.Areas.Admin.Controllers.ProductController.GetProducts() in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Areas\Admin\Controllers\ProductController.cs:line 28
+   at lambda_method575(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-06-10 17:24:55.617 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotImplementedException: The method or operation is not implemented.
+   at ECommerce.Persistence.Repository`2.GetDynamicAsync(Expression`1 filter, String orderBy, Func`2 include, Int32 pageIndex, Int32 pageSize, Boolean isTrackingOff) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Repository.cs:line 79
+   at ECommerce.Persistence.Features.Feature1.Repositories.ProductRepository.GetTableDataAsync(Expression`1 expression, String orderBy, Int32 pageIndex, Int32 pageSize) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Features\Feature1\Repositories\ProductRepository.cs:line 17
+   at ECommerce.Infrastructure.Features.Services.ProductService.GetPagedProductsAsync(Int32 pageIndex, Int32 pageSize, String searchText, String orderBy) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Infrastructure\Features\Services\ProductService.cs:line 23
+   at ECommerce.Web.Models.ProductListModel.GetPagedProductAsync(DataTablesAjaxRequestUtility dataTableUtility) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Models\ProductListModel.cs:line 25
+   at ECommerce.Web.Areas.Admin.Controllers.ProductController.GetProducts() in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Areas\Admin\Controllers\ProductController.cs:line 28
+   at lambda_method575(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-06-10 17:33:41.816 +06:00 [INF] Application Starting....
+2023-06-10 17:33:53.993 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotImplementedException: The method or operation is not implemented.
+   at ECommerce.Persistence.Repository`2.GetDynamicAsync(Expression`1 filter, String orderBy, Func`2 include, Int32 pageIndex, Int32 pageSize, Boolean isTrackingOff) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Repository.cs:line 79
+   at ECommerce.Persistence.Features.Feature1.Repositories.ProductRepository.GetTableDataAsync(Expression`1 expression, String orderBy, Int32 pageIndex, Int32 pageSize) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Features\Feature1\Repositories\ProductRepository.cs:line 17
+   at ECommerce.Infrastructure.Features.Services.ProductService.GetPagedProductsAsync(Int32 pageIndex, Int32 pageSize, String searchText, String orderBy) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Infrastructure\Features\Services\ProductService.cs:line 23
+   at ECommerce.Web.Models.ProductListModel.GetPagedProductAsync(DataTablesAjaxRequestUtility dataTableUtility) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Models\ProductListModel.cs:line 25
+   at ECommerce.Web.Areas.Admin.Controllers.ProductController.GetProducts() in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Areas\Admin\Controllers\ProductController.cs:line 28
+   at lambda_method575(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-06-10 17:35:44.406 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotImplementedException: The method or operation is not implemented.
+   at ECommerce.Persistence.Repository`2.GetDynamicAsync(Expression`1 filter, String orderBy, Func`2 include, Int32 pageIndex, Int32 pageSize, Boolean isTrackingOff) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Repository.cs:line 79
+   at ECommerce.Persistence.Features.Feature1.Repositories.ProductRepository.GetTableDataAsync(Expression`1 expression, String orderBy, Int32 pageIndex, Int32 pageSize) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Features\Feature1\Repositories\ProductRepository.cs:line 17
+   at ECommerce.Infrastructure.Features.Services.ProductService.GetPagedProductsAsync(Int32 pageIndex, Int32 pageSize, String searchText, String orderBy) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Infrastructure\Features\Services\ProductService.cs:line 23
+   at ECommerce.Web.Models.ProductListModel.GetPagedProductAsync(DataTablesAjaxRequestUtility dataTableUtility) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Models\ProductListModel.cs:line 25
+   at ECommerce.Web.Areas.Admin.Controllers.ProductController.GetProducts() in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Areas\Admin\Controllers\ProductController.cs:line 28
+   at lambda_method575(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-06-10 17:36:35.130 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotImplementedException: The method or operation is not implemented.
+   at ECommerce.Persistence.Repository`2.GetDynamicAsync(Expression`1 filter, String orderBy, Func`2 include, Int32 pageIndex, Int32 pageSize, Boolean isTrackingOff) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Repository.cs:line 79
+   at ECommerce.Persistence.Features.Feature1.Repositories.ProductRepository.GetTableDataAsync(Expression`1 expression, String orderBy, Int32 pageIndex, Int32 pageSize) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Features\Feature1\Repositories\ProductRepository.cs:line 17
+   at ECommerce.Infrastructure.Features.Services.ProductService.GetPagedProductsAsync(Int32 pageIndex, Int32 pageSize, String searchText, String orderBy) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Infrastructure\Features\Services\ProductService.cs:line 23
+   at ECommerce.Web.Models.ProductListModel.GetPagedProductAsync(DataTablesAjaxRequestUtility dataTableUtility) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Models\ProductListModel.cs:line 25
+   at ECommerce.Web.Areas.Admin.Controllers.ProductController.GetProducts() in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Areas\Admin\Controllers\ProductController.cs:line 28
+   at lambda_method575(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-06-10 17:36:38.296 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotImplementedException: The method or operation is not implemented.
+   at ECommerce.Persistence.Repository`2.GetDynamicAsync(Expression`1 filter, String orderBy, Func`2 include, Int32 pageIndex, Int32 pageSize, Boolean isTrackingOff) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Repository.cs:line 79
+   at ECommerce.Persistence.Features.Feature1.Repositories.ProductRepository.GetTableDataAsync(Expression`1 expression, String orderBy, Int32 pageIndex, Int32 pageSize) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Features\Feature1\Repositories\ProductRepository.cs:line 17
+   at ECommerce.Infrastructure.Features.Services.ProductService.GetPagedProductsAsync(Int32 pageIndex, Int32 pageSize, String searchText, String orderBy) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Infrastructure\Features\Services\ProductService.cs:line 23
+   at ECommerce.Web.Models.ProductListModel.GetPagedProductAsync(DataTablesAjaxRequestUtility dataTableUtility) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Models\ProductListModel.cs:line 25
+   at ECommerce.Web.Areas.Admin.Controllers.ProductController.GetProducts() in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Areas\Admin\Controllers\ProductController.cs:line 28
+   at lambda_method575(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-06-10 17:37:01.699 +06:00 [INF] Application Starting....
+2023-06-10 17:39:02.163 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotImplementedException: The method or operation is not implemented.
+   at ECommerce.Persistence.Repository`2.GetDynamicAsync(Expression`1 filter, String orderBy, Func`2 include, Int32 pageIndex, Int32 pageSize, Boolean isTrackingOff) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Repository.cs:line 79
+   at ECommerce.Persistence.Features.Feature1.Repositories.ProductRepository.GetTableDataAsync(Expression`1 expression, String orderBy, Int32 pageIndex, Int32 pageSize) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Features\Feature1\Repositories\ProductRepository.cs:line 17
+   at ECommerce.Infrastructure.Features.Services.ProductService.GetPagedProductsAsync(Int32 pageIndex, Int32 pageSize, String searchText, String orderBy) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Infrastructure\Features\Services\ProductService.cs:line 23
+   at ECommerce.Web.Models.ProductListModel.GetPagedProductAsync(DataTablesAjaxRequestUtility dataTableUtility)
+   at ECommerce.Web.Areas.Admin.Controllers.ProductController.GetProducts()
+   at lambda_method603(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-06-10 17:40:49.878 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotImplementedException: The method or operation is not implemented.
+   at ECommerce.Persistence.Repository`2.GetDynamicAsync(Expression`1 filter, String orderBy, Func`2 include, Int32 pageIndex, Int32 pageSize, Boolean isTrackingOff) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Repository.cs:line 79
+   at ECommerce.Persistence.Features.Feature1.Repositories.ProductRepository.GetTableDataAsync(Expression`1 expression, String orderBy, Int32 pageIndex, Int32 pageSize) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Features\Feature1\Repositories\ProductRepository.cs:line 17
+   at ECommerce.Infrastructure.Features.Services.ProductService.GetPagedProductsAsync(Int32 pageIndex, Int32 pageSize, String searchText, String orderBy) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Infrastructure\Features\Services\ProductService.cs:line 23
+   at ECommerce.Web.Models.ProductListModel.GetPagedProductAsync(DataTablesAjaxRequestUtility dataTableUtility)
+   at ECommerce.Web.Areas.Admin.Controllers.ProductController.GetProducts()
+   at lambda_method603(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-06-10 18:16:06.443 +06:00 [INF] Application Starting....
+2023-06-10 18:23:22.683 +06:00 [INF] Application Starting....
+2023-06-10 19:01:17.756 +06:00 [INF] Application Starting....

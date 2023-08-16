@@ -1,0 +1,30 @@
+D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Application\bin\Debug\net7.0\ECommerce.Application.deps.json
+D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Application\bin\Debug\net7.0\ECommerce.Application.dll
+D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Application\bin\Debug\net7.0\ECommerce.Application.pdb
+D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Application\bin\Debug\net7.0\ECommerce.Domain.dll
+D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Application\bin\Debug\net7.0\ECommerce.Domain.pdb
+D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Application\obj\Debug\net7.0\ECommerce.Application.csproj.AssemblyReference.cache
+D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Application\obj\Debug\net7.0\ECommerce.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Application\obj\Debug\net7.0\ECommerce.Application.AssemblyInfoInputs.cache
+D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Application\obj\Debug\net7.0\ECommerce.Application.AssemblyInfo.cs
+D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Application\obj\Debug\net7.0\ECommerce.Application.csproj.CoreCompileInputs.cache
+D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Application\obj\Debug\net7.0\ECommerce.Application.csproj.CopyComplete
+D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Application\obj\Debug\net7.0\ECommerce.Application.dll
+D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Application\obj\Debug\net7.0\refint\ECommerce.Application.dll
+D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Application\obj\Debug\net7.0\ECommerce.Application.pdb
+D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Application\obj\Debug\net7.0\ref\ECommerce.Application.dll
+E:\ASP.NET\Repositories\Class Wise Projects\ECommerce\ECommerce.Application\bin\Debug\net7.0\ECommerce.Application.deps.json
+E:\ASP.NET\Repositories\Class Wise Projects\ECommerce\ECommerce.Application\bin\Debug\net7.0\ECommerce.Application.dll
+E:\ASP.NET\Repositories\Class Wise Projects\ECommerce\ECommerce.Application\bin\Debug\net7.0\ECommerce.Application.pdb
+E:\ASP.NET\Repositories\Class Wise Projects\ECommerce\ECommerce.Application\bin\Debug\net7.0\ECommerce.Domain.dll
+E:\ASP.NET\Repositories\Class Wise Projects\ECommerce\ECommerce.Application\bin\Debug\net7.0\ECommerce.Domain.pdb
+E:\ASP.NET\Repositories\Class Wise Projects\ECommerce\ECommerce.Application\obj\Debug\net7.0\ECommerce.Application.csproj.AssemblyReference.cache
+E:\ASP.NET\Repositories\Class Wise Projects\ECommerce\ECommerce.Application\obj\Debug\net7.0\ECommerce.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\ASP.NET\Repositories\Class Wise Projects\ECommerce\ECommerce.Application\obj\Debug\net7.0\ECommerce.Application.AssemblyInfoInputs.cache
+E:\ASP.NET\Repositories\Class Wise Projects\ECommerce\ECommerce.Application\obj\Debug\net7.0\ECommerce.Application.AssemblyInfo.cs
+E:\ASP.NET\Repositories\Class Wise Projects\ECommerce\ECommerce.Application\obj\Debug\net7.0\ECommerce.Application.csproj.CoreCompileInputs.cache
+E:\ASP.NET\Repositories\Class Wise Projects\ECommerce\ECommerce.Application\obj\Debug\net7.0\ECommerce.Application.csproj.CopyComplete
+E:\ASP.NET\Repositories\Class Wise Projects\ECommerce\ECommerce.Application\obj\Debug\net7.0\ECommerce.Application.dll
+E:\ASP.NET\Repositories\Class Wise Projects\ECommerce\ECommerce.Application\obj\Debug\net7.0\refint\ECommerce.Application.dll
+E:\ASP.NET\Repositories\Class Wise Projects\ECommerce\ECommerce.Application\obj\Debug\net7.0\ECommerce.Application.pdb
+E:\ASP.NET\Repositories\Class Wise Projects\ECommerce\ECommerce.Application\obj\Debug\net7.0\ref\ECommerce.Application.dll

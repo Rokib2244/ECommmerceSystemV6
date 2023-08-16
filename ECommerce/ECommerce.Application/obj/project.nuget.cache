@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "c9FQi6iN1e1oTFc/cgAJNFFI+dcywaxboUIxquNJyGwPrL2pfIrCAJ6GBHl/5eA1w+jm+Q6MkdEIq97AoRQweA==",
+  "success": true,
+  "projectFilePath": "E:\\ASP.NET\\Repositories\\Class Wise Projects\\ECommerce\\ECommerce.Application\\ECommerce.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\roni\\.nuget\\packages\\autofac\\7.0.1\\autofac.7.0.1.nupkg.sha512",
+    "C:\\Users\\roni\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

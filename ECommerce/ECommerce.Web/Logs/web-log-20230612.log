@@ -1,0 +1,96 @@
+2023-06-12 00:08:03.661 +06:00 [INF] Application Starting....
+2023-06-12 00:10:25.433 +06:00 [ERR] servcer error
+System.NotImplementedException: The method or operation is not implemented.
+   at ECommerce.Persistence.Repository`2.GetCount(Expression`1 filter) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Repository.cs:line 190
+   at ECommerce.Persistence.Features.Feature1.Repositories.ProductRepository.IsDuplicateName(String name, Nullable`1 id) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Features\Feature1\Repositories\ProductRepository.cs:line 19
+   at ECommerce.Infrastructure.Features.Services.ProductService.UpdateProduct(Guid id, String name, Double price) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Infrastructure\Features\Services\ProductService.cs:line 50
+   at ECommerce.Web.Areas.Admin.Models.ProductUpdateModel.UpdateProduct() in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Areas\Admin\Models\ProductUpdateModel.cs:line 39
+   at ECommerce.Web.Areas.Admin.Controllers.ProductController.Update(ProductUpdateModel model) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Areas\Admin\Controllers\ProductController.cs:line 70
+2023-06-12 00:13:04.335 +06:00 [INF] Application Starting....
+2023-06-12 00:13:22.905 +06:00 [ERR] servcer error
+System.NotImplementedException: The method or operation is not implemented.
+   at ECommerce.Persistence.Repository`2.GetCount(Expression`1 filter) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Repository.cs:line 190
+   at ECommerce.Persistence.Features.Feature1.Repositories.ProductRepository.IsDuplicateName(String name, Nullable`1 id) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Features\Feature1\Repositories\ProductRepository.cs:line 19
+   at ECommerce.Infrastructure.Features.Services.ProductService.UpdateProduct(Guid id, String name, Double price) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Infrastructure\Features\Services\ProductService.cs:line 50
+   at ECommerce.Web.Areas.Admin.Models.ProductUpdateModel.UpdateProduct() in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Areas\Admin\Models\ProductUpdateModel.cs:line 39
+   at ECommerce.Web.Areas.Admin.Controllers.ProductController.Update(ProductUpdateModel model) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Areas\Admin\Controllers\ProductController.cs:line 70
+2023-06-12 00:14:09.171 +06:00 [INF] Application Starting....
+2023-06-12 00:14:38.812 +06:00 [ERR] servcer error
+System.NotImplementedException: The method or operation is not implemented.
+   at ECommerce.Persistence.Repository`2.GetCount(Expression`1 filter) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Repository.cs:line 190
+   at ECommerce.Persistence.Features.Feature1.Repositories.ProductRepository.IsDuplicateName(String name, Nullable`1 id) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Features\Feature1\Repositories\ProductRepository.cs:line 21
+   at ECommerce.Infrastructure.Features.Services.ProductService.CreateProduct(String name, Double price) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Infrastructure\Features\Services\ProductService.cs:line 36
+   at ECommerce.Web.Areas.Admin.Models.ProductCreateModel.CreateProduct() in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Areas\Admin\Models\ProductCreateModel.cs:line 30
+   at ECommerce.Web.Areas.Admin.Controllers.ProductController.Create(ProductCreateModel model) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Areas\Admin\Controllers\ProductController.cs:line 41
+2023-06-12 00:19:16.122 +06:00 [INF] Application Starting....
+2023-06-12 00:23:45.282 +06:00 [INF] Application Starting....
+2023-06-12 00:27:43.512 +06:00 [INF] Application Starting....
+2023-06-12 00:29:11.286 +06:00 [ERR] servcer error
+System.NotImplementedException: The method or operation is not implemented.
+   at ECommerce.Persistence.Repository`2.GetCount(Expression`1 filter) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Repository.cs:line 191
+   at ECommerce.Persistence.Features.Feature1.Repositories.ProductRepository.IsDuplicateName(String name, Nullable`1 id) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Features\Feature1\Repositories\ProductRepository.cs:line 19
+   at ECommerce.Infrastructure.Features.Services.ProductService.UpdateProduct(Guid id, String name, Double price) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Infrastructure\Features\Services\ProductService.cs:line 51
+   at ECommerce.Web.Areas.Admin.Models.ProductUpdateModel.UpdateProduct() in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Areas\Admin\Models\ProductUpdateModel.cs:line 39
+   at ECommerce.Web.Areas.Admin.Controllers.ProductController.Update(ProductUpdateModel model) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Areas\Admin\Controllers\ProductController.cs:line 70
+2023-06-12 00:55:32.810 +06:00 [INF] Application Starting....
+2023-06-12 00:56:59.834 +06:00 [ERR] servcer error
+System.NotImplementedException: The method or operation is not implemented.
+   at ECommerce.Persistence.Repository`2.GetCount(Expression`1 filter) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Repository.cs:line 191
+   at ECommerce.Persistence.Features.Feature1.Repositories.ProductRepository.IsDuplicateName(String name, Nullable`1 id) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Features\Feature1\Repositories\ProductRepository.cs:line 21
+   at ECommerce.Infrastructure.Features.Services.ProductService.CreateProduct(String name, Double price) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Infrastructure\Features\Services\ProductService.cs:line 37
+   at ECommerce.Web.Areas.Admin.Models.ProductCreateModel.CreateProduct() in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Areas\Admin\Models\ProductCreateModel.cs:line 30
+   at ECommerce.Web.Areas.Admin.Controllers.ProductController.Create(ProductCreateModel model) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Areas\Admin\Controllers\ProductController.cs:line 41
+2023-06-12 00:58:46.590 +06:00 [ERR] servcer error
+System.NotImplementedException: The method or operation is not implemented.
+   at ECommerce.Persistence.Repository`2.GetCount(Expression`1 filter) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Repository.cs:line 191
+   at ECommerce.Persistence.Features.Feature1.Repositories.ProductRepository.IsDuplicateName(String name, Nullable`1 id) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Features\Feature1\Repositories\ProductRepository.cs:line 21
+   at ECommerce.Infrastructure.Features.Services.ProductService.CreateProduct(String name, Double price) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Infrastructure\Features\Services\ProductService.cs:line 37
+   at ECommerce.Web.Areas.Admin.Models.ProductCreateModel.CreateProduct() in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Areas\Admin\Models\ProductCreateModel.cs:line 30
+   at ECommerce.Web.Areas.Admin.Controllers.ProductController.Create(ProductCreateModel model) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Areas\Admin\Controllers\ProductController.cs:line 41
+2023-06-12 01:16:59.579 +06:00 [INF] Application Starting....
+2023-06-12 01:17:22.144 +06:00 [ERR] servcer error
+System.NotImplementedException: The method or operation is not implemented.
+   at ECommerce.Persistence.Repository`2.GetCount(Expression`1 filter) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Repository.cs:line 191
+   at ECommerce.Persistence.Features.Feature1.Repositories.ProductRepository.IsDuplicateName(String name, Nullable`1 id) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Features\Feature1\Repositories\ProductRepository.cs:line 21
+   at ECommerce.Infrastructure.Features.Services.ProductService.CreateProduct(String name, Double price) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Infrastructure\Features\Services\ProductService.cs:line 37
+   at ECommerce.Web.Areas.Admin.Models.ProductCreateModel.CreateProduct() in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Areas\Admin\Models\ProductCreateModel.cs:line 30
+   at ECommerce.Web.Areas.Admin.Controllers.ProductController.Create(ProductCreateModel model) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Areas\Admin\Controllers\ProductController.cs:line 41
+2023-06-12 01:30:26.271 +06:00 [INF] Application Starting....
+2023-06-12 01:30:52.034 +06:00 [ERR] servcer error
+System.NotImplementedException: The method or operation is not implemented.
+   at ECommerce.Persistence.Repository`2.GetCount(Expression`1 filter) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Repository.cs:line 208
+   at ECommerce.Persistence.Features.Feature1.Repositories.ProductRepository.IsDuplicateName(String name, Nullable`1 id) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Features\Feature1\Repositories\ProductRepository.cs:line 21
+   at ECommerce.Infrastructure.Features.Services.ProductService.CreateProduct(String name, Double price) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Infrastructure\Features\Services\ProductService.cs:line 37
+   at ECommerce.Web.Areas.Admin.Models.ProductCreateModel.CreateProduct() in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Areas\Admin\Models\ProductCreateModel.cs:line 30
+   at ECommerce.Web.Areas.Admin.Controllers.ProductController.Create(ProductCreateModel model) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Areas\Admin\Controllers\ProductController.cs:line 41
+2023-06-12 01:40:56.877 +06:00 [INF] Application Starting....
+2023-06-12 01:41:20.306 +06:00 [ERR] servcer error
+System.NotImplementedException: The method or operation is not implemented.
+   at ECommerce.Persistence.Repository`2.GetCount(Expression`1 filter) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Repository.cs:line 208
+   at ECommerce.Persistence.Features.Feature1.Repositories.ProductRepository.IsDuplicateName(String name, Nullable`1 id) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Features\Feature1\Repositories\ProductRepository.cs:line 21
+   at ECommerce.Infrastructure.Features.Services.ProductService.CreateProduct(String name, Double price) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Infrastructure\Features\Services\ProductService.cs:line 37
+   at ECommerce.Web.Areas.Admin.Models.ProductCreateModel.CreateProduct() in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Areas\Admin\Models\ProductCreateModel.cs:line 30
+   at ECommerce.Web.Areas.Admin.Controllers.ProductController.Create(ProductCreateModel model) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Areas\Admin\Controllers\ProductController.cs:line 41
+2023-06-12 01:43:15.295 +06:00 [ERR] servcer error
+System.NotImplementedException: The method or operation is not implemented.
+   at ECommerce.Persistence.Repository`2.GetCount(Expression`1 filter) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Repository.cs:line 208
+   at ECommerce.Persistence.Features.Feature1.Repositories.ProductRepository.IsDuplicateName(String name, Nullable`1 id) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Features\Feature1\Repositories\ProductRepository.cs:line 19
+   at ECommerce.Infrastructure.Features.Services.ProductService.UpdateProduct(Guid id, String name, Double price) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Infrastructure\Features\Services\ProductService.cs:line 51
+   at ECommerce.Web.Areas.Admin.Models.ProductUpdateModel.UpdateProduct() in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Areas\Admin\Models\ProductUpdateModel.cs:line 39
+   at ECommerce.Web.Areas.Admin.Controllers.ProductController.Update(ProductUpdateModel model) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Areas\Admin\Controllers\ProductController.cs:line 70
+2023-06-12 11:41:08.582 +06:00 [INF] Application Starting....
+2023-06-12 11:46:49.143 +06:00 [ERR] servcer error
+System.NotImplementedException: The method or operation is not implemented.
+   at ECommerce.Persistence.Repository`2.GetCount(Expression`1 filter) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Repository.cs:line 208
+   at ECommerce.Persistence.Features.Feature1.Repositories.ProductRepository.IsDuplicateName(String name, Nullable`1 id) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Features\Feature1\Repositories\ProductRepository.cs:line 19
+   at ECommerce.Infrastructure.Features.Services.ProductService.UpdateProduct(Guid id, String name, Double price) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Infrastructure\Features\Services\ProductService.cs:line 51
+   at ECommerce.Web.Areas.Admin.Models.ProductUpdateModel.UpdateProduct() in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Areas\Admin\Models\ProductUpdateModel.cs:line 39
+   at ECommerce.Web.Areas.Admin.Controllers.ProductController.Update(ProductUpdateModel model) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Areas\Admin\Controllers\ProductController.cs:line 70
+2023-06-12 11:48:09.569 +06:00 [ERR] servcer error
+System.NotImplementedException: The method or operation is not implemented.
+   at ECommerce.Persistence.Repository`2.GetCount(Expression`1 filter) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Repository.cs:line 208
+   at ECommerce.Persistence.Features.Feature1.Repositories.ProductRepository.IsDuplicateName(String name, Nullable`1 id) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Persistence\Features\Feature1\Repositories\ProductRepository.cs:line 19
+   at ECommerce.Infrastructure.Features.Services.ProductService.UpdateProduct(Guid id, String name, Double price) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Infrastructure\Features\Services\ProductService.cs:line 51
+   at ECommerce.Web.Areas.Admin.Models.ProductUpdateModel.UpdateProduct() in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Areas\Admin\Models\ProductUpdateModel.cs:line 39
+   at ECommerce.Web.Areas.Admin.Controllers.ProductController.Update(ProductUpdateModel model) in D:\ASP.NET\rashed_aspnet_b8\ECommerce\ECommerce.Web\Areas\Admin\Controllers\ProductController.cs:line 70
+2023-06-12 15:04:56.186 +06:00 [INF] Application Starting....
